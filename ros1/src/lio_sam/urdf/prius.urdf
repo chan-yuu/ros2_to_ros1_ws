@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="prius">
+  <!--- Surface properties must come first? -->
+
+  <!-- base_footprint 后轴  ，base_link 前轴 -->
+  <link name="base_footprint"/>
+  <joint name="base_footprint_joint" type="fixed">
+    <origin xyz="2.75 0 0" rpy="0 0 0" />
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+  </joint>
+
+  <link name="base_link">
+    <inertial>
+      <mass value="1" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+    </inertial>
+  </link>
+  <joint name="base_link_connection" type="fixed">
+    <parent link="base_link" />
+    <child link="chassis" />
+    <origin xyz="-1.375 0 0" rpy="0 0 0" />
+  </joint>
+
+  <link name="chassis">
+    <visual>
+      <origin xyz="0.1 0 0" rpy="0 0 1.57" />
+      <geometry> 
+      <!-- scale="0.01 0.01 0.01" -->
+        <mesh filename="package://prius_description/meshes/hybrid_body.obj" scale="0.0085 0.0085 0.0085" />
+      </geometry>
+    </visual>
+
+    <inertial>
+      <mass value="1356.0" />
+      <origin xyz="0 0 0.48" rpy="0 0 1.5708" />
+      <inertia ixx="2581.13354740" ixy="0.0" ixz="0.0" iyy="591.30846112" iyz="0.0" izz="2681.95008628" />
+    </inertial>
+  </link>
+  
+  <link name="fl_axle">
+    <inertial>
+      <mass value="1" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.004" ixy="0.0" ixz="0.0" iyy="0.004" iyz="0.0" izz="0.004" />
+    </inertial>
+  </link>
+  <link name="fr_axle">
+    <inertial>
+      <mass value="1" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.004" ixy="0.0" ixz="0.0" iyy="0.004" iyz="0.0" izz="0.004" />
+    </inertial>
+  </link>
+  <link name="front_left_wheel">
+    <inertial>
+      <mass value="11" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.58631238" ixy="0.0" ixz="0.0" iyy="0.33552910" iyz="0.0" izz="0.33552910" />
+    </inertial>
+    <collision name="front_left_wheel_collision">
+      <geometry>
+        <sphere radius="0.31265" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://prius_description/meshes/wheel.obj" scale="0.0085 0.0085 0.0085" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="front_right_wheel">
+    <inertial>
+      <mass value="11" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.58631238" ixy="0.0" ixz="0.0" iyy="0.33552910" iyz="0.0" izz="0.33552910" />
+    </inertial>
+    <collision name="front_right_wheel_collision">
+      <geometry>
+        <sphere radius="0.31265" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://prius_description/meshes/wheel.obj" scale="0.0085 0.0085 0.0085" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="rear_left_wheel">
+    <inertial>
+      <mass value="11" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.58631238" ixy="0.0" ixz="0.0" iyy="0.33552910" iyz="0.0" izz="0.33552910" />
+    </inertial>
+    <collision name="rear_left_wheel_collision">
+      <geometry>
+        <sphere radius="0.31265" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://prius_description/meshes/wheel.obj" scale="0.0085 0.0085 0.0085" />
+      </geometry>
+    </visual>
+  </link>
+  <link name="rear_right_wheel">
+    <inertial>
+      <mass value="11" />
+      <origin xyz="0 0 0" />
+      <inertia ixx="0.58631238" ixy="0.0" ixz="0.0" iyy="0.33552910" iyz="0.0" izz="0.33552910" />
+    </inertial>
+    <collision name="rear_right_wheel_collision">
+      <geometry>
+        <sphere radius="0.31265" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://prius_description/meshes/wheel.obj" scale="0.0085 0.0085 0.0085" />
+      </geometry>
+    </visual>
+  </link>
+
+  <joint name="front_left_steer_joint" type="fixed">
+    <parent link="base_footprint" />
+    <child link="fl_axle" />
+    <origin xyz="2.75 0.715 0.3" rpy="0 0 1.57" />
+  </joint>
+  <joint name="front_right_steer_joint" type="fixed">
+    <parent link="base_footprint" />
+    <child link="fr_axle" />
+    <origin xyz="2.75 -0.715 0.3" rpy="0 0 1.57" />
+  </joint>
+  <joint name="front_left_wheel_joint" type="fixed">
+    <parent link="fl_axle" />
+    <child link="front_left_wheel" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <joint name="front_right_wheel_joint" type="fixed">
+    <parent link="fr_axle" />
+    <child link="front_right_wheel" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+  </joint>
+  <joint name="rear_left_wheel_joint" type="fixed">
+    <parent link="base_footprint" />
+    <child link="rear_left_wheel" />
+    <origin xyz="0.0 0.715 0.3" rpy="0 0 1.57" />
+  </joint>
+  <joint name="rear_right_wheel_joint" type="fixed">
+    <parent link="base_footprint" />
+    <child link="rear_right_wheel" />
+    <origin xyz="-0.0 -0.715 0.3" rpy="0 0 1.57" />
+  </joint>
+
+
+  <!-- Sensor links and fixed joints -->
+  <link name="rslidar">
+    <inertial>
+      <mass value="1" />
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001" />
+    </inertial>
+  </link>
+  <joint name="rslidar_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="rslidar" />
+    <origin xyz="0.1 0.0 1.82" rpy="0 0.1 0.0" />
+  </joint>
+
+
+</robot>

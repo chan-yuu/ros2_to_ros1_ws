@@ -1,0 +1,5 @@
+int8 data
+float32 limited_speed
+---
+bool success
+string message

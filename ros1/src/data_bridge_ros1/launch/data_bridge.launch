@@ -1,0 +1,28 @@
+<launch>
+    <node name="pointcloud_reader" pkg="data_bridge_ros1" type="pointcloud_reader_node" output="screen">
+        <param name="shared_memory_name" value="/tmp/pointcloud_shm" />
+        <param name="semaphore_name" value="/pointcloud_sem" />
+        <param name="output_topic" value="/rslidar_points" />
+    </node>
+    
+    <node name="imu_reader" pkg="data_bridge_ros1" type="imu_reader_node" output="screen">
+        <param name="output_topic" value="/imu_data" />
+        <param name="shared_memory_key" value="I" />
+        <param name="semaphore_key" value="i" />
+    </node>
+    
+    <node name="tf_reader" pkg="data_bridge_ros1" type="tf_reader_node" output="screen">
+        <param name="tf_topic" value="/tf" />
+        <param name="tf_static_topic" value="/tf_static" />
+    </node>
+    
+    
+    <node name="gps_reader" pkg="data_bridge_ros1" type="gps_reader_node" output="screen">
+        <param name="output_topic" value="/gps_imu_data" />
+        <param name="shared_memory_key" value="G" />
+        <param name="semaphore_key" value="g" />
+        <param name="frame_id" value="gps_link" />
+        <param name="publish_rate" value="10.0" />
+    </node>
+
+</launch>

@@ -1,0 +1,28 @@
+<launch>
+    <!-- 性能监控节点参数 -->
+    <arg name="monitor_pointcloud" default="true" doc="Enable pointcloud monitoring" />
+    <arg name="monitor_imu" default="true" doc="Enable IMU monitoring" />
+    <arg name="report_interval" default="5.0" doc="Performance report interval in seconds" />
+    <arg name="log_to_file" default="true" doc="Enable logging to file" />
+    <arg name="log_file_path" default="/tmp/ros1_performance_log.csv" doc="Path to performance log file" />
+    <arg name="enable_timing_log" default="false" doc="Enable detailed timing logs" />
+    
+    <!-- 性能监控节点 -->
+    <node name="performance_monitor" pkg="data_bridge_ros1" type="performance_monitor_node" output="screen">
+        <param name="monitor_pointcloud" value="$(arg monitor_pointcloud)" />
+        <param name="monitor_imu" value="$(arg monitor_imu)" />
+        <param name="report_interval_sec" value="$(arg report_interval)" />
+        <param name="log_to_file" value="$(arg log_to_file)" />
+        <param name="log_file_path" value="$(arg log_file_path)" />
+        <param name="enable_timing_log" value="$(arg enable_timing_log)" />
+        
+        <!-- 重映射话题 -->
+        <remap from="/performance_metrics" to="/ros1/performance_metrics" />
+    </node>
+    
+    <!-- 信息输出 -->
+    <node name="performance_info" pkg="rostopic" type="rostopic" 
+          args="echo /ros1/performance_metrics" output="screen" 
+          if="$(eval arg('enable_timing_log') == true)" />
+          
+</launch>
