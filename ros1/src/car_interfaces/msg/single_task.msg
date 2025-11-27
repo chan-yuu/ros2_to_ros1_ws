@@ -1,0 +1,5 @@
+string task_id
+int32 bale_num_to_handle
+string destination_shelf_area
+geometry_msgs/Pose origin_shelf_job_position
+geometry_msgs/Pose destination_shelf_job_position

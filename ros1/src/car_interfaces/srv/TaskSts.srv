@@ -1,0 +1,11 @@
+string order_id
+string business_type
+string origin_shelf_area
+string destination_shelf_area
+string task_id
+int8 bale_num_to_handle
+int8 task_sts
+car_interfaces/pose final_pose
+---
+bool success
+string message

@@ -1,0 +1,6 @@
+# 请求部分
+geometry_msgs/PoseWithCovarianceStamped init_pose
+---
+# 响应部分
+bool success
+string message
