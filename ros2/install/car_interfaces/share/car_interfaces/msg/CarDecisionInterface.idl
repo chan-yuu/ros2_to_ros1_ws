@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/CarDecisionInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 决策状态机数据话题" "\n"
+      " 话题名称: car_decision_data" "\n"
+      " 话题接口: car_interfaces/msg/CarDecisionInterface.msg")
+    struct CarDecisionInterface {
+      @verbatim (language="comment", text=
+        " 数据时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 是否停车，0继续前进，1停车（判断依据：障碍物位置）")
+      boolean stop;
+
+      @verbatim (language="comment", text=
+        " 是否限速，0否，1是")
+      boolean speed;
+
+      @verbatim (language="comment", text=
+        " 路段限速最大速度，单位为m/s（依据：限速标识）")
+      float maxspeed;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+
+      int8 statemode;
+    };
+  };
+};

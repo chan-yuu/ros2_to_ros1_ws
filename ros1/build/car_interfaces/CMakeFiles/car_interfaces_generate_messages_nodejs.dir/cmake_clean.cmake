@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/CanStateInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/CarDecisionInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/CarOriInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/Decision.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/FaultDiagnosisInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/GpsImuAddInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/GpsImuInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/GpsImuRequisiteInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/Object.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/PalletInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/PathGlobal.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/PathSpeedCtrlInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/Pathplan.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/Pointplan.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/RoadList.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/RoadToControl.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/TargetDetectionInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/Yolov5DetectionInterface.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/pose.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/msg/single_task.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/BalesNumInCamera.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/CameraTask.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/ControlTask.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/EmergencyStopTask.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/FusionDetTask.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/GetInitPose.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/GetTargetPose.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/PlanTask.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/PositionTask.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/StopTask.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/TaskSts.js"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/gennodejs/ros/car_interfaces/srv/cloud_order.js"
+  "CMakeFiles/car_interfaces_generate_messages_nodejs"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/car_interfaces_generate_messages_nodejs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

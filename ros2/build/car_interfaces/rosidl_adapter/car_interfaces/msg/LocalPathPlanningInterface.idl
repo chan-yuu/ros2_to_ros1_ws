@@ -1,0 +1,54 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/LocalPathPlanningInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 全局路径规划话题" "\n"
+      " 话题名称：local_path_planning_data" "\n"
+      " 话题接口：car_interfaces/msg/LocalPathPlanningInterface.msg")
+    struct LocalPathPlanningInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 起点位置，先经后纬")
+      sequence<double> startpoint;
+
+      @verbatim (language="comment", text=
+        " 终点位置，先经后纬")
+      sequence<double> endpoint;
+
+      @verbatim (language="comment", text=
+        " 途径点经度")
+      sequence<double> longitude;
+
+      @verbatim (language="comment", text=
+        " 途径点纬度")
+      sequence<double> latitude;
+
+      @verbatim (language="comment", text=
+        " 途径点速度")
+      sequence<float> speed;
+
+      @verbatim (language="comment", text=
+        " 途径点速度角度（航向角角度）")
+      sequence<float> angle;
+
+      @verbatim (language="comment", text=
+        " 控制模式：-1（默认）：巡航，0：终点模式，1：停障模式，2：减速，3：绕障，4：跟车")
+      float control_mode;
+
+      @verbatim (language="comment", text=
+        " 距离下发的终点距离，单位为m")
+      float path_end_dis;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+    };
+  };
+};

@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/GlobalPathPlanningInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 全局路径规划话题" "\n"
+      " 话题名称：global_path_planning_data" "\n"
+      " 话题接口：car_interfaces/msg/GlobalPathPlanningInterface.msg")
+    struct GlobalPathPlanningInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 起点位置，先经后纬")
+      sequence<double> startpoint;
+
+      @verbatim (language="comment", text=
+        " 终点位置，先经后纬")
+      sequence<double> endpoint;
+
+      @verbatim (language="comment", text=
+        " 路径集合（所有途径点的集合）")
+      sequence<double> routedata;
+
+      @verbatim (language="comment", text=
+        " diao头点的经纬度（先经后纬）")
+      sequence<float> back_point;
+
+      @verbatim (language="comment", text=
+        " obu下发最终的停车位置经纬度（先经后纬）")
+      sequence<float> end_obu_point;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+    };
+  };
+};

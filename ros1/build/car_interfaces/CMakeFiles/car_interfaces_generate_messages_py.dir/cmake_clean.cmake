@@ -1,0 +1,42 @@
+file(REMOVE_RECURSE
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_CanStateInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_CarDecisionInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_CarOriInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_Decision.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_FaultDiagnosisInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_GpsImuAddInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_GpsImuInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_GpsImuRequisiteInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_Object.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_PalletInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_PathGlobal.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_PathSpeedCtrlInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_Pathplan.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_Pointplan.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_RoadList.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_RoadToControl.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_TargetDetectionInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_Yolov5DetectionInterface.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/__init__.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_pose.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/msg/_single_task.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_BalesNumInCamera.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_CameraTask.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_ControlTask.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_EmergencyStopTask.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_FusionDetTask.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_GetInitPose.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_GetTargetPose.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_PlanTask.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_PositionTask.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_StopTask.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_TaskSts.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/__init__.py"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/lib/python3/dist-packages/car_interfaces/srv/_cloud_order.py"
+  "CMakeFiles/car_interfaces_generate_messages_py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/car_interfaces_generate_messages_py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

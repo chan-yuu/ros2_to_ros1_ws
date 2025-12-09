@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/LidarOriInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 激光雷达数据话题" "\n"
+      " 话题名称：lidar_ori_data" "\n"
+      " 话题接口：car_interfaces/msg/LidarOriInterface.msg")
+    struct LidarOriInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 激光雷达ID")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        " 点云数量")
+      uint32 number;
+
+      @verbatim (language="comment", text=
+        " 点云数据")
+      sequence<float> pointcloud;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+    };
+  };
+};

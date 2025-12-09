@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/CameraOriInterface.msg
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 相机图像数据话题" "\n"
+      " 话题名称: camera_ori_data" "\n"
+      " 话题接口: car_interfaces/msg/CameraOriInterface.msg")
+    struct CameraOriInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 摄像头ID")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        " 相机图像")
+      sensor_msgs::msg::Image imagedata;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+    };
+  };
+};

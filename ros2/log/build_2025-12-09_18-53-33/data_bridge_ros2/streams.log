@@ -1,0 +1,76 @@
+[0.005s] Invoking command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2 -DCMAKE_INSTALL_PREFIX=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2
+[0.044s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.044s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.044s]   CMake.
+[0.044s] 
+[0.044s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.044s]   to tell CMake that the project requires at least <min> but has been updated
+[0.044s]   to work with policies introduced by <max> or earlier.
+[0.044s] 
+[0.044s] [0m
+[0.068s] -- The C compiler identification is GNU 9.4.0
+[0.110s] -- The CXX compiler identification is GNU 9.4.0
+[0.119s] -- Detecting C compiler ABI info
+[0.178s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.195s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.294s] [33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+[0.294s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[0.294s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[0.294s]   the cmake_policy command to set the policy and suppress this warning.
+[0.294s] 
+[0.294s] Call Stack (most recent call first):
+[0.294s]   /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+[0.294s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+[0.294s]   /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.294s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.294s]   /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.294s]   CMakeLists.txt:9 (find_package)
+[0.294s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.294s] [0m
+[0.310s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[0.310s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.362s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.388s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.391s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.462s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")
+[0.486s] -- Found FastRTPS: /opt/ros/galactic/include
+[0.532s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.564s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.565s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.575s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.576s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.620s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.621s] -- Looking for pthread_create in pthreads
+[0.686s] -- Looking for pthread_create in pthreads - not found
+[0.686s] -- Looking for pthread_create in pthread
+[0.755s] -- Looking for pthread_create in pthread - found
+[0.756s] -- Found Threads: TRUE
+[0.835s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[0.898s] -- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+[1.014s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[1.014s]   By not providing "Findcar_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.014s]   project has asked CMake to find a package configuration file provided by
+[1.014s]   "car_interfaces", but CMake did not find one.
+[1.014s] 
+[1.014s]   Could not find a package configuration file provided by "car_interfaces"
+[1.014s]   with any of the following names:
+[1.014s] 
+[1.014s]     car_interfacesConfig.cmake
+[1.014s]     car_interfaces-config.cmake
+[1.014s] 
+[1.015s]   Add the installation prefix of "car_interfaces" to CMAKE_PREFIX_PATH or set
+[1.015s]   "car_interfaces_DIR" to a directory containing one of the above files.  If
+[1.015s]   "car_interfaces" provides a separate development package or SDK, be sure it
+[1.015s]   has been installed.
+[1.015s] 
+[1.015s] [0m
+[1.015s] -- Configuring incomplete, errors occurred!
+[1.020s] Invoked command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2 -DCMAKE_INSTALL_PREFIX=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2

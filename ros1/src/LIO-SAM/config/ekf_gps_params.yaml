@@ -1,0 +1,71 @@
+# EKF 节点通常负责发布 odom -> base_link 的变换。
+# 但如果你有 LIO-SAM 或其他 SLAM 算法已经在发布这个 TF，这里必须设为 false，否则 TF 树会打架（闪烁）。
+publish_tf: false
+
+# --- 坐标系定义 ---
+# map_frame: 全局地图坐标系 (通常是 map)
+# odom_frame: 里程计坐标系 (通常是 odom)
+# base_link_frame: 机器人自身的中心坐标系
+# world_frame: EKF 输出的数据是基于哪个坐标系的？对于 GPS 融合，通常填 odom。
+map_frame: map
+odom_frame: odom
+base_link_frame: base_link
+world_frame: odom
+
+frequency: 50
+# --- 2D 模式 ---
+# true = 强制把 Z, Roll, Pitch 设为 0。适用于只在平地跑的扫地机。
+# false = 处理 3D 数据（即便是在地面，如果有坡度，也建议设为 false）。
+two_d_mode: false
+sensor_timeout: 0.01 # 如果传感器 0.01秒没数据，就认为超时
+
+# -------------------------------------
+# External IMU:
+# -------------------------------------
+imu0: imu_correct # 订阅的话题名
+# imu_correct needs to be aligned with ROS REP105 (ENU)
+imu0_config: [false, false, false, # 不融合 IMU 的位置 (IMU 不知道自己在哪里)
+              true,  true,  true,  # 融合 IMU 的 姿态 (Roll/Pitch/Yaw) -> 核心！
+              false, false, false, # 不融合 IMU 的 线速度 (由积分得来，误差大)
+              false, false, true,  # 融合 IMU 的 角速度 (Yaw rate, Z轴旋转速度)
+              true,  true,  true]  # 融合 IMU 的 加速度 (用于检测运动状态)
+
+# 是否是差分模式？
+# false = 直接使用 IMU 输出的绝对角度。
+# true = 只关心上一帧到这一帧变了多少度 (如果有磁场干扰导致绝对角度不准，可以开这个)。
+imu0_differential: false
+imu0_queue_size: 50 
+# 是否移除重力加速度？
+# true = IMU 一般会测到 9.8 的重力，EKF 需要把它减掉，否则会以为车子在疯狂向上加速。
+imu0_remove_gravitational_acceleration: true
+
+# -------------------------------------
+# Odometry (From Navsat node):
+# -------------------------------------
+odom0: odometry/gps # 订阅 Navsat 节点发布的话题
+odom0_config: [true,  true,  true, # 融合 GPS 的 X, Y, Z 位置 -> 核心！
+               false, false, false, # 不融合 姿态 (GPS 不知道车头朝向)
+               false, false, false, # 不融合 速度
+               false, false, false,
+               false, false, false]
+
+
+odom0_differential: false # GPS 是绝对位置，不能开差分
+odom0_queue_size: 10
+
+#                            x     y     z     r     p     y   x_dot  y_dot  z_dot  r_dot p_dot y_dot x_ddot y_ddot z_ddot
+process_noise_covariance: [  1.0,  0,    0,    0,    0,    0,    0,     0,     0,     0,    0,    0,    0,    0,      0,
+                             0,    1.0,  0,    0,    0,    0,    0,     0,     0,     0,    0,    0,    0,    0,      0,
+                             0,    0,    10.0, 0,    0,    0,    0,     0,     0,     0,    0,    0,    0,    0,      0,
+                             0,    0,    0,    0.03, 0,    0,    0,     0,     0,     0,    0,    0,    0,    0,      0,
+                             0,    0,    0,    0,    0.03, 0,    0,     0,     0,     0,    0,    0,    0,    0,      0,
+                             0,    0,    0,    0,    0,    0.1,  0,     0,     0,     0,    0,    0,    0,    0,      0,
+                             0,    0,    0,    0,    0,    0,    0.25,  0,     0,     0,    0,    0,    0,    0,      0,
+                             0,    0,    0,    0,    0,    0,    0,     0.25,  0,     0,    0,    0,    0,    0,      0,
+                             0,    0,    0,    0,    0,    0,    0,     0,     0.04,  0,    0,    0,    0,    0,      0,
+                             0,    0,    0,    0,    0,    0,    0,     0,     0,     0.01, 0,    0,    0,    0,      0,
+                             0,    0,    0,    0,    0,    0,    0,     0,     0,     0,    0.01, 0,    0,    0,      0,
+                             0,    0,    0,    0,    0,    0,    0,     0,     0,     0,    0,    0.5,  0,    0,      0,
+                             0,    0,    0,    0,    0,    0,    0,     0,     0,     0,    0,    0,    0.01, 0,      0,
+                             0,    0,    0,    0,    0,    0,    0,     0,     0,     0,    0,    0,    0,    0.01,   0,
+                             0,    0,    0,    0,    0,    0,    0,     0,     0,     0,    0,    0,    0,    0,      0.015]

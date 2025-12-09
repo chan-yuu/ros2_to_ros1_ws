@@ -1,0 +1,86 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/GpsInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 导航数据话题" "\n"
+      " 话题名称：gps_data" "\n"
+      " 话题接口：car_interfaces/msg/GpsInterface.msg")
+    struct GpsInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 导航ID")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        " 偏航角（0-359.99）")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        " 俯仰角（-90-90）")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        " 横滚角（-180-180）")
+      float roll;
+
+      @verbatim (language="comment", text=
+        " 角速度x")
+      float wx;
+
+      @verbatim (language="comment", text=
+        " 角速度y")
+      float wy;
+
+      @verbatim (language="comment", text=
+        " 角速度z")
+      float wz;
+
+      @verbatim (language="comment", text=
+        " 加速度x")
+      float ax;
+
+      @verbatim (language="comment", text=
+        " 加速度y")
+      float ay;
+
+      @verbatim (language="comment", text=
+        " 加速度z")
+      float az;
+
+      @verbatim (language="comment", text=
+        " 经度")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        " 纬度")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        " 高度")
+      double height;
+
+      @verbatim (language="comment", text=
+        " 东向速度")
+      float eastvelocity;
+
+      @verbatim (language="comment", text=
+        " 北向速度")
+      float northvelocity;
+
+      @verbatim (language="comment", text=
+        " 天向速度")
+      float skyvelocity;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+    };
+  };
+};

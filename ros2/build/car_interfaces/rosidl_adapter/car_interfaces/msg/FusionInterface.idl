@@ -1,0 +1,194 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/FusionInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 融合数据话题" "\n"
+      " 话题名称：fusion_data" "\n"
+      " 话题接口：car_interfaces/msg/FusionInterface.msg")
+    struct FusionInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 车辆ID")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        " 车长m")
+      float carlength;
+
+      @verbatim (language="comment", text=
+        " 车宽m")
+      float carwidth;
+
+      @verbatim (language="comment", text=
+        " 车高m")
+      float carheight;
+
+      @verbatim (language="comment", text=
+        " 车道中心线偏移距离，默认0")
+      float centeroffset;
+
+      @verbatim (language="comment", text=
+        " 交通标识数量")
+      uint8 signnumber;
+
+      @verbatim (language="comment", text=
+        " 交通标志数据")
+      sequence<float> signdata;
+
+      @verbatim (language="comment", text=
+        " 红绿灯数据")
+      sequence<float> lightdata;
+
+      @verbatim (language="comment", text=
+        " 障碍物数据")
+      sequence<float> obstacledata;
+
+      @verbatim (language="comment", text=
+        " 偏航角（0-359.99）")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        " 俯仰角（-90-90）")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        " 横滚角（-180-180）")
+      float roll;
+
+      @verbatim (language="comment", text=
+        " 角速度x")
+      float wx;
+
+      @verbatim (language="comment", text=
+        " 角速度y")
+      float wy;
+
+      @verbatim (language="comment", text=
+        " 角速度z")
+      float wz;
+
+      @verbatim (language="comment", text=
+        " 加速度x")
+      float ax;
+
+      @verbatim (language="comment", text=
+        " 加速度y")
+      float ay;
+
+      @verbatim (language="comment", text=
+        " 加速度z")
+      float az;
+
+      @verbatim (language="comment", text=
+        " 经度")
+      double longitude;
+
+      @verbatim (language="comment", text=
+        " 纬度")
+      double latitude;
+
+      @verbatim (language="comment", text=
+        " 高度")
+      double height;
+
+      @verbatim (language="comment", text=
+        " 东向速度")
+      float eastvelocity;
+
+      @verbatim (language="comment", text=
+        " 北向速度")
+      float northvelocity;
+
+      @verbatim (language="comment", text=
+        " 天向速度")
+      float skyvelocity;
+
+      @verbatim (language="comment", text=
+        " 车辆速度，单位为m/s")
+      float carspeed;
+
+      @verbatim (language="comment", text=
+        " 车辆转角，左转为正，右转为负")
+      float steerangle;
+
+      @verbatim (language="comment", text=
+        " 车辆档位信号（01：驻车，02：空挡（N），03：前进（D），04：后退（R），05：无效）")
+      int8 gearpos;
+
+      @verbatim (language="comment", text=
+        " 制动量（-50-50nm）")
+      float braketq;
+
+      @verbatim (language="comment", text=
+        " 制动状态（00：驻车状态，01：驻车释放状态）")
+      uint8 parkingstate;
+
+      @verbatim (language="comment", text=
+        " 电池当前SOC（0-100）")
+      uint8 soc;
+
+      @verbatim (language="comment", text=
+        " 电池电压（0-55V）")
+      uint8 batteryvol;
+
+      @verbatim (language="comment", text=
+        " 电池放电电流（0-100A）")
+      uint16 batterydischargecur;
+
+      @verbatim (language="comment", text=
+        " 车辆运行模式： 0： ACU控制  1：自动驾驶  2： 急停模式")
+      uint8 car_run_mode;
+
+      @verbatim (language="comment", text=
+        " 油门踏板开度： 取值0～100")
+      uint8 throttle_percentage;
+
+      @verbatim (language="comment", text=
+        " 制动踏板开度： 取值0～100")
+      uint8 braking_percentage;
+
+      @verbatim (language="comment", text=
+        " 左转向灯状态：0：关闭，1：打开")
+      boolean left_light;
+
+      @verbatim (language="comment", text=
+        " 右转向灯状态：0：关闭，1：打开")
+      boolean right_light;
+
+      @verbatim (language="comment", text=
+        " 倒车灯状态：0：关闭，1：打开")
+      boolean reversing_light;
+
+      @verbatim (language="comment", text=
+        " 喇叭状态：0：关闭，1：打开")
+      boolean speaker;
+
+      @verbatim (language="comment", text=
+        " 启动按钮状态：0：按键无效，1：按键有效")
+      boolean start_button;
+
+      @verbatim (language="comment", text=
+        " 急停按钮状态：0：按键无效，1：按键有效")
+      boolean stop_button;
+
+      @verbatim (language="comment", text=
+        " 设备状态，0：状态正常，1：电池箱报警；2：电机控制器报警")
+      uint8 state;
+
+      @verbatim (language="comment", text=
+        " 错误码；电池箱报警：1：单体过压或欠压，2：放电电流异常，3：电压报警，4：电池温度报警，5：电池SOC过低。电机控制器报警：1：转向电机控制器故障，2：驱动电机控制器故障")
+      uint8 error;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+    };
+  };
+};

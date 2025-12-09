@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/BalesNumInCamera.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/CameraTask.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/CanStateInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/CarDecisionInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/CarOriInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/ControlTask.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/Decision.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/EmergencyStopTask.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/FaultDiagnosisInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/FusionDetTask.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/GetInitPose.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/GetTargetPose.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/GpsImuAddInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/GpsImuInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/GpsImuRequisiteInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/Object.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/PalletInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/PathGlobal.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/PathSpeedCtrlInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/Pathplan.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/PlanTask.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/Pointplan.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/PositionTask.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/RoadList.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/RoadToControl.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/StopTask.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/TargetDetectionInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/TaskSts.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/Yolov5DetectionInterface.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/cloud_order.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/pose.h"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/include/car_interfaces/single_task.h"
+  "CMakeFiles/car_interfaces_generate_messages_cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/car_interfaces_generate_messages_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,103 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+  CMakeLists.txt:9 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+-- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)
+-- Found car_interfaces: 0.0.0 (/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/cmake)
+-- Found geodesy: 1.0.4 (/opt/ros/galactic/share/geodesy/cmake)
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2
+[  8%] [32mBuilding CXX object CMakeFiles/pointcloud_writer_node.dir/src/pointcloud_writer.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/imu_writer_node.dir/src/imu_writer.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/tf_writer_node.dir/src/tf_writer.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/performance_monitor.dir/src/performance_monitor.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/benchmark_tool.dir/src/benchmark_tool.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gps_converter_node.dir/src/gps_converter_node.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable performance_monitor[0m
+[ 58%] Built target performance_monitor
+[ 66%] [32m[1mLinking CXX executable benchmark_tool[0m
+[ 66%] Built target benchmark_tool
+[ 75%] [32m[1mLinking CXX executable imu_writer_node[0m
+[ 83%] [32m[1mLinking CXX executable tf_writer_node[0m
+[ 91%] [32m[1mLinking CXX executable gps_converter_node[0m
+[100%] [32m[1mLinking CXX executable pointcloud_writer_node[0m
+[100%] Built target imu_writer_node
+[100%] Built target tf_writer_node
+[100%] Built target pointcloud_writer_node
+[100%] Built target gps_converter_node
+-- Install configuration: ""
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/pointcloud_writer_node
+-- Set non-toolchain portion of runtime path of "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/pointcloud_writer_node" to ""
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/imu_writer_node
+-- Set non-toolchain portion of runtime path of "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/imu_writer_node" to ""
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/tf_writer_node
+-- Set non-toolchain portion of runtime path of "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/tf_writer_node" to ""
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/performance_monitor
+-- Set non-toolchain portion of runtime path of "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/performance_monitor" to ""
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/benchmark_tool
+-- Set non-toolchain portion of runtime path of "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/benchmark_tool" to ""
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/gps_converter_node
+-- Set non-toolchain portion of runtime path of "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/data_bridge_ros2/gps_converter_node" to ""
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2//launch
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2//launch/benchmark.launch.py
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2//launch/gps_converter.launch.py
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2//launch/performance_test.launch.py
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2//launch/data_bridge.launch.py
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/ament_index/resource_index/package_run_dependencies/data_bridge_ros2
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/ament_index/resource_index/parent_prefix_path/data_bridge_ros2
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/environment/ament_prefix_path.sh
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/environment/ament_prefix_path.dsv
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/environment/path.sh
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/environment/path.dsv
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/local_setup.bash
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/local_setup.sh
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/local_setup.zsh
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/local_setup.dsv
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.dsv
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/ament_index/resource_index/packages/data_bridge_ros2
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/cmake/data_bridge_ros2Config.cmake
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/cmake/data_bridge_ros2Config-version.cmake
+-- Installing: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.xml

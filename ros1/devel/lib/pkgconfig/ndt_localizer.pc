@@ -1,0 +1,8 @@
+prefix=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel
+
+Name: ndt_localizer
+Description: Description of ndt_localizer
+Version: 1.7.0
+Cflags: -I/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/src/ndt_localizer/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp tf2 tf2_ros tf2_geometry_msgs geometry_msgs sensor_msgs nav_msgs diagnostic_msgs pcl_conversions pcl_ros message_generation car_interfaces

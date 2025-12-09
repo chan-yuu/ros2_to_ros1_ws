@@ -1,0 +1,12 @@
+(cl:in-package car_interfaces-msg)
+(cl:export '(TASK_ID-VAL
+          TASK_ID
+          BALE_NUM_TO_HANDLE-VAL
+          BALE_NUM_TO_HANDLE
+          DESTINATION_SHELF_AREA-VAL
+          DESTINATION_SHELF_AREA
+          ORIGIN_SHELF_JOB_POSITION-VAL
+          ORIGIN_SHELF_JOB_POSITION
+          DESTINATION_SHELF_JOB_POSITION-VAL
+          DESTINATION_SHELF_JOB_POSITION
+))

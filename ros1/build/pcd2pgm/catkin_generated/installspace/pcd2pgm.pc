@@ -1,0 +1,8 @@
+prefix=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/install
+
+Name: pcd2pgm
+Description: Description of pcd2pgm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

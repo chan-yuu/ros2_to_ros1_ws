@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/ObuReceive.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "红绿灯倒数秒数上报")
+    struct ObuReceive {
+      @verbatim (language="comment", text=
+        "相位颜色 1：绿色 2：红  3：黄色")
+      uint8 color;
+
+      @verbatim (language="comment", text=
+        "当前灯色剩余时间")
+      uint8 time;
+
+      @verbatim (language="comment", text=
+        "与红绿灯路口中心距离")
+      float dis_to_stopline;
+
+      @verbatim (language="comment", text=
+        "背景车协作式请求下发" "\n"
+        "1:减速")
+      uint8 cutin_flag;
+
+      @verbatim (language="comment", text=
+        " 终点+途径点1+途径点2的经纬度")
+      double end_point_lat;
+
+      double end_point_lon;
+
+      double transit_point_1_lat;
+
+      double transit_point_1_lon;
+
+      double transit_point_2_lat;
+
+      double transit_point_2_lon;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+prefix=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/install
+
+Name: car_interfaces
+Description: Description of car_interfaces
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime roscpp rospy std_msgs
