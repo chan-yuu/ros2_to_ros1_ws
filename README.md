@@ -1,16 +1,23 @@
 sudo apt install ros-$ROS_DISTRO-geographic-info
+
 sudo apt install ros-$ROS_DISTRO-geodesy
+
 sudo apt install ros-$ROS_DISTRO-geographic-msgs
 
 # ros2的lidar数据没有ring 和 dense 不行!!!
 尝试配置dds的空间.
 ## 1. 操作系统内核层：增加 UDP 缓冲区 (Linux)
 sudo nano /etc/sysctl.conf
+
 ### 在文件末尾添加以下内容
 net.core.rmem_max = 33554432
+
 net.core.rmem_default = 33554432
+
 net.core.wmem_max = 33554432
+
 net.core.wmem_default = 33554432
+
 sudo sysctl -p
 
 
@@ -32,6 +39,7 @@ sudo apt install -y ros-galactic-cyclonedds ros-galactic-rmw-cyclonedds-cpp
 </CycloneDDS>
 
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
 export CYCLONEDDS_URI=file:///path/to/your/cyclonedds.xml
 
 
