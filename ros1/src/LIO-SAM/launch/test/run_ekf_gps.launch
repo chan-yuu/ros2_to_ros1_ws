@@ -1,0 +1,10 @@
+<launch>
+    <!-- 发布odometry/navsat -->
+    <node pkg="robot_localization" type="ekf_localization_node" name="ekf_gps" respawn="true" output="screen">
+        
+        <rosparam command="load" file="$(find lio_sam)/config/ekf_gps_params.yaml" />
+
+        <remap from="odometry/filtered" to="odometry/navsat" />
+        
+    </node>
+</launch>

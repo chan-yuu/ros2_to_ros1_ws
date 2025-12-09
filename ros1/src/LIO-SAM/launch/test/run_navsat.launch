@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="robot_localization" type="navsat_transform_node" name="navsat" respawn="true" output="screen">
+        
+        <rosparam command="load" file="$(find lio_sam)/config/navsat_params.yaml" />
+
+        <remap from="imu/data" to="imu_correct" />
+        <remap from="gps/fix" to="gps/fix" />
+        <remap from="odometry/filtered" to="odometry/navsat" />
+        
+        </node>
+</launch>

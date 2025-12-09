@@ -1,0 +1,8 @@
+prefix=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel
+
+Name: data_bridge_ros1
+Description: Description of data_bridge_ros1
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs sensor_msgs tf2_msgs geometry_msgs car_interfaces

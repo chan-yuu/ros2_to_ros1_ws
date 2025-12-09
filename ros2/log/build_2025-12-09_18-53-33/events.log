@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000979] (data_bridge_ros2) JobQueued: {'identifier': 'data_bridge_ros2', 'dependencies': OrderedDict()}
+[0.001014] (data_bridge_ros2) JobStarted: {'identifier': 'data_bridge_ros2'}
+[0.005096] (data_bridge_ros2) JobProgress: {'identifier': 'data_bridge_ros2', 'progress': 'cmake'}
+[0.005336] (data_bridge_ros2) Command: {'cmd': ['/home/cyun/.local/bin/cmake', '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2', '-DCMAKE_INSTALL_PREFIX=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2'], 'cwd': '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2', 'env': OrderedDict([('ISAACSIM_PYTHON_EXE', '/home/cyun/Downloads/apps/isaacsim/python.sh'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'cyun'), ('LC_TIME', 'zh_CN.UTF-8'), ('DISABLE_ROS1_EOL_WARNINGS', '1'), ('TF_TRT_MIN_SEGMENT_SIZE', '0'), ('SSH_AGENT_PID', '3465'), ('XDG_SESSION_TYPE', 'x11'), ('ISAACSIM_PATH', '/home/cyun/Downloads/apps/isaacsim'), ('WORK_DIR', '/home/cyun/Downloads/apps/carla/CARLA_0.9.15/carla_garage'), ('ROS_ETC_DIR', '/opt/ros/noetic/etc/ros'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/cyun'), ('CONDA_SHLVL', '0'), ('LEADERBOARD_ROOT', '/home/cyun/Downloads/apps/carla/CARLA_0.9.15/carla_garage/leaderboard'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', ''), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', ''), ('TF_CPP_MIN_LOG_LEVEL', '2'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1966'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5096c5806b44bafb2d6fc7156937ec32'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('CARLA_ROOT', '/home/cyun/Downloads/apps/carla/CARLA_0.9.15'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('INFOPATH', '/usr/local/texlive/2024/texmf-dist/doc/info:/usr/local/texlive/2024/texmf-dist/doc/info:'), ('ROS_DISTRO', 'galactic'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'cyun'), ('DASHSCOPE_API_KEY', 'sk-ed28dce9908f432bacca53fcf76e92eb'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', ''), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:62225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('TF_ENABLE_ONEDNN_OPTS', '0'), ('USERNAME', 'cyun'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/home/cyun/Fork_RL/catkin_ws/models:/usr/share/gazebo-11/models:/home/cyun/Fork_RL/catkin_ws/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/galactic/bin:/opt/ros/noetic/bin:/usr/local/texlive/2024/texmf-dist/scripts/latexindent:/usr/local/texlive/2024/bin/x86_64-linux:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/bin:/home/cyun/.local/bin:/usr/local/texlive/2024/texmf-dist/scripts/latexindent:/usr/local/texlive/2024/bin/x86_64-linux:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/bin:/home/cyun/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/cuda-11.8/bin:/usr/local/cuda-11.8/bin'), ('SESSION_MANAGER', 'local/cyun:@/tmp/.ICE-unix/3855,unix/cyun:/tmp/.ICE-unix/3855'), ('INVOCATION_ID', 'dec371e17b10479bacc91f91db74a186'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('MUJOCO_PY_MUJOCO_PATH', '/home/cyun/.mujoco/mujoco210'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('ROSLISP_PACKAGE_DIRECTORIES', ''), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', ''), ('ROS_ROOT', '/opt/ros/noetic/share/ros'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SCENARIO_RUNNER_ROOT', '/home/cyun/Downloads/apps/carla/CARLA_0.9.15/carla_garage/scenario_runner'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('CONDA_PYTHON_EXE', '/home/cyun/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:f5cb0a7b-df4d-45bc-ac69-e6c02bfea9f4'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://localhost:11311'), ('GDMSESSION', 'ubuntu'), ('Torch_DIR', '/home/cyun/Project/em_robot_ws/lib/libtorch'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'fcitx'), ('JETSON_CUDA_ARCH_BIN', ''), ('PWD', '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2'), ('CUDA_HOME', '/usr/local/cuda-11.8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/cyun/anaconda3/bin/conda'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=5096c5806b44bafb2d6fc7156937ec32'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages:/opt/ros/noetic/lib/python3/dist-packages:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/PythonAPI/carla/:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/carla_garage/scenario_runner:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/carla_garage/leaderboard:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/PythonAPI/carla/:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/carla_garage/scenario_runner:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/carla_garage/leaderboard:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/PythonAPI/carla:/home/cyun/Downloads/apps/carla/CARLA_0.9.15/PythonAPI/carla'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('MANPATH', '/usr/local/texlive/2024/texmf-dist/doc/man:/usr/local/texlive/2024/texmf-dist/doc/man:'), ('VTE_VERSION', '6003'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic:/opt/ros/noetic:/opt/deepways_master:/opt/deepways_master')]), 'shell': False}
+[0.045007] (data_bridge_ros2) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.045138] (data_bridge_ros2) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.045167] (data_bridge_ros2) StderrLine: {'line': b'  CMake.\n'}
+[0.045189] (data_bridge_ros2) StderrLine: {'line': b'\n'}
+[0.045210] (data_bridge_ros2) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.045231] (data_bridge_ros2) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.045252] (data_bridge_ros2) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.045272] (data_bridge_ros2) StderrLine: {'line': b'\n'}
+[0.045292] (data_bridge_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.068874] (data_bridge_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099792] (-) TimerEvent: {}
+[0.111151] (data_bridge_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.119981] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.178897] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.195440] (data_bridge_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.195594] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.195983] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.199883] (-) TimerEvent: {}
+[0.203590] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.280470] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.288999] (data_bridge_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.289206] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.289532] (data_bridge_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.293267] (data_bridge_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.295121] (data_bridge_ros2) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[0.295155] (data_bridge_ros2) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[0.295178] (data_bridge_ros2) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[0.295201] (data_bridge_ros2) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[0.295224] (data_bridge_ros2) StderrLine: {'line': b'\n'}
+[0.295246] (data_bridge_ros2) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.295340] (data_bridge_ros2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[0.295360] (data_bridge_ros2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[0.295390] (data_bridge_ros2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[0.295410] (data_bridge_ros2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[0.295431] (data_bridge_ros2) StderrLine: {'line': b'  /opt/ros/galactic/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[0.295450] (data_bridge_ros2) StderrLine: {'line': b'  CMakeLists.txt:9 (find_package)\n'}
+[0.295473] (data_bridge_ros2) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.295493] (data_bridge_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[0.299936] (-) TimerEvent: {}
+[0.310716] (data_bridge_ros2) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")\n'}
+[0.310767] (data_bridge_ros2) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.363153] (data_bridge_ros2) StdoutLine: {'line': b'-- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)\n'}
+[0.389324] (data_bridge_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.392320] (data_bridge_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.400048] (-) TimerEvent: {}
+[0.462860] (data_bridge_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[0.487017] (data_bridge_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/galactic/include\n'}
+[0.500214] (-) TimerEvent: {}
+[0.532616] (data_bridge_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.564615] (data_bridge_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)\n'}
+[0.566046] (data_bridge_ros2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.576256] (data_bridge_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.576684] (data_bridge_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600454] (-) TimerEvent: {}
+[0.621369] (data_bridge_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.621536] (data_bridge_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.686589] (data_bridge_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.687073] (data_bridge_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.700637] (-) TimerEvent: {}
+[0.755717] (data_bridge_ros2) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.757049] (data_bridge_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[0.800855] (-) TimerEvent: {}
+[0.835868] (data_bridge_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)\n'}
+[0.898946] (data_bridge_ros2) StdoutLine: {'line': b'-- Found tf2_msgs: 0.17.5 (/opt/ros/galactic/share/tf2_msgs/cmake)\n'}
+[0.900956] (-) TimerEvent: {}
+[1.001123] (-) TimerEvent: {}
+[1.015111] (data_bridge_ros2) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:21 (find_package):\n'}
+[1.015244] (data_bridge_ros2) StderrLine: {'line': b'  By not providing "Findcar_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.015280] (data_bridge_ros2) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.015312] (data_bridge_ros2) StderrLine: {'line': b'  "car_interfaces", but CMake did not find one.\n'}
+[1.015342] (data_bridge_ros2) StderrLine: {'line': b'\n'}
+[1.015368] (data_bridge_ros2) StderrLine: {'line': b'  Could not find a package configuration file provided by "car_interfaces"\n'}
+[1.015396] (data_bridge_ros2) StderrLine: {'line': b'  with any of the following names:\n'}
+[1.015421] (data_bridge_ros2) StderrLine: {'line': b'\n'}
+[1.015446] (data_bridge_ros2) StderrLine: {'line': b'    car_interfacesConfig.cmake\n'}
+[1.015470] (data_bridge_ros2) StderrLine: {'line': b'    car_interfaces-config.cmake\n'}
+[1.015494] (data_bridge_ros2) StderrLine: {'line': b'\n'}
+[1.015518] (data_bridge_ros2) StderrLine: {'line': b'  Add the installation prefix of "car_interfaces" to CMAKE_PREFIX_PATH or set\n'}
+[1.015542] (data_bridge_ros2) StderrLine: {'line': b'  "car_interfaces_DIR" to a directory containing one of the above files.  If\n'}
+[1.015568] (data_bridge_ros2) StderrLine: {'line': b'  "car_interfaces" provides a separate development package or SDK, be sure it\n'}
+[1.015593] (data_bridge_ros2) StderrLine: {'line': b'  has been installed.\n'}
+[1.015617] (data_bridge_ros2) StderrLine: {'line': b'\n'}
+[1.015642] (data_bridge_ros2) StderrLine: {'line': b'\x1b[0m\n'}
+[1.015666] (data_bridge_ros2) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.021116] (data_bridge_ros2) CommandEnded: {'returncode': 1}
+[1.060552] (data_bridge_ros2) JobEnded: {'identifier': 'data_bridge_ros2', 'rc': 1}
+[1.070925] (-) EventReactorShutdown: {}

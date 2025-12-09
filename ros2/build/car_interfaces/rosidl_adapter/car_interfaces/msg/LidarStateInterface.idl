@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/LidarStateInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 激光雷达状态话题" "\n"
+      " 话题名称：lidar_state_data" "\n"
+      " 话题接口：car_interfaces/msg/LidarStateInterface.msg")
+    struct LidarStateInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 激光雷达ID")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        " 设备状态，0：状态正常，1：状态异常")
+      uint8 state;
+
+      @verbatim (language="comment", text=
+        " 错误码；1：通讯错误，2：通讯接受异常，3：校验错误")
+      uint8 error;
+    };
+  };
+};

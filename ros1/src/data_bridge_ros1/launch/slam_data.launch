@@ -1,0 +1,9 @@
+<launch>
+    
+    <node name="imu" pkg="data_bridge_ros1" type="imu_transformer.py" output="screen">
+    </node>
+    
+    <node name="gps" pkg="data_bridge_ros1" type="gps_converter.py" output="screen">
+    </node>
+
+</launch>

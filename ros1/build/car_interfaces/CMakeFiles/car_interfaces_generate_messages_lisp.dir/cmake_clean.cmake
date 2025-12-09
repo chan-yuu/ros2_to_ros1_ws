@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/CanStateInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/CarDecisionInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/CarOriInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/Decision.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/FaultDiagnosisInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/GpsImuAddInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/GpsImuInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/GpsImuRequisiteInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/Object.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/PalletInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/PathGlobal.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/PathSpeedCtrlInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/Pathplan.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/Pointplan.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/RoadList.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/RoadToControl.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/TargetDetectionInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/Yolov5DetectionInterface.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/pose.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/msg/single_task.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/BalesNumInCamera.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/CameraTask.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/ControlTask.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/EmergencyStopTask.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/FusionDetTask.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/GetInitPose.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/GetTargetPose.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/PlanTask.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/PositionTask.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/StopTask.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/TaskSts.lisp"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/common-lisp/ros/car_interfaces/srv/cloud_order.lisp"
+  "CMakeFiles/car_interfaces_generate_messages_lisp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/car_interfaces_generate_messages_lisp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

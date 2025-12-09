@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from car_interfaces/msg/NetStartEndPointInterface.msg
+// generated code does not contain a copyright notice
+
+
+module car_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      " 全局路径规划话题" "\n"
+      " 话题名称: net_start_end_point_data" "\n"
+      " 话题接口: car_interfaces/msg/NetStartEndPointInterface.msg")
+    struct NetStartEndPointInterface {
+      @verbatim (language="comment", text=
+        " 时间戳")
+      double timestamp;
+
+      @verbatim (language="comment", text=
+        " 起点位置，先经后纬")
+      sequence<double> startpoint;
+
+      @verbatim (language="comment", text=
+        " 终点位置，先经后纬")
+      sequence<double> endpoint;
+
+      @verbatim (language="comment", text=
+        " 进程处理时间")
+      float process_time;
+    };
+  };
+};

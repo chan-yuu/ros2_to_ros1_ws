@@ -1,0 +1,36 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from car_interfaces:msg/LidarOriInterface.idl
+// generated code does not contain a copyright notice
+#ifndef CAR_INTERFACES__MSG__DETAIL__LIDAR_ORI_INTERFACE__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define CAR_INTERFACES__MSG__DETAIL__LIDAR_ORI_INTERFACE__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "car_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_car_interfaces
+size_t get_serialized_size_car_interfaces__msg__LidarOriInterface(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_car_interfaces
+size_t max_serialized_size_car_interfaces__msg__LidarOriInterface(
+  bool & full_bounded,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_car_interfaces
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, car_interfaces, msg, LidarOriInterface)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // CAR_INTERFACES__MSG__DETAIL__LIDAR_ORI_INTERFACE__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

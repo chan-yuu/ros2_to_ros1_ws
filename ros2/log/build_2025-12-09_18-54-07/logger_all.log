@@ -1,0 +1,225 @@
+[0.165s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.165s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f11e5a7aaf0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=32, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f11e5a7aaf0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f11e595b130>)
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.332s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_interfaces) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_interfaces' with type 'ros.ament_cmake' and name 'car_interfaces'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/data_bridge_ros2) by extension 'ros'
+[0.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/data_bridge_ros2' with type 'ros.ament_cmake' and name 'data_bridge_ros2'
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.363s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.365s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 339 installed packages in /opt/ros/galactic
+[0.366s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /opt/ros/noetic
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.406s] Level 5:colcon.colcon_core.verb:set package 'car_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.406s] DEBUG:colcon.colcon_core.verb:Building package 'car_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces', 'merge_install': False, 'path': '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/car_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'data_bridge_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'data_bridge_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2', 'merge_install': False, 'path': '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.407s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.407s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/car_interfaces' with build type 'ament_cmake'
+[0.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/car_interfaces'
+[0.409s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.409s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.409s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/car_interfaces -DCMAKE_INSTALL_PREFIX=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces
+[1.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/car_interfaces -DCMAKE_INSTALL_PREFIX=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces
+[1.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake --build /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces -- -j32 -l32
+[17.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake --build /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces -- -j32 -l32
+[17.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake --install /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces
+[17.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_interfaces)
+[17.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic:${CMAKE_PREFIX_PATH} /home/cyun/.local/bin/cmake --install /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/car_interfaces
+[17.611s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces' for CMake module files
+[17.611s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces' for CMake config files
+[17.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interfaces', 'cmake_prefix_path')
+[17.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/cmake_prefix_path.ps1'
+[17.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/cmake_prefix_path.dsv'
+[17.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/cmake_prefix_path.sh'
+[17.613s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib'
+[17.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interfaces', 'ld_library_path_lib')
+[17.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/ld_library_path_lib.ps1'
+[17.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/ld_library_path_lib.dsv'
+[17.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/ld_library_path_lib.sh'
+[17.614s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/bin'
+[17.614s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/pkgconfig/car_interfaces.pc'
+[17.614s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages'
+[17.614s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interfaces', 'pythonpath')
+[17.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/pythonpath.ps1'
+[17.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/pythonpath.dsv'
+[17.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/pythonpath.sh'
+[17.614s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/bin'
+[17.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.ps1'
+[17.615s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.dsv'
+[17.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.sh'
+[17.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.bash'
+[17.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.zsh'
+[17.616s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/colcon-core/packages/car_interfaces)
+[17.616s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_interfaces)
+[17.616s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces' for CMake module files
+[17.617s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces' for CMake config files
+[17.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interfaces', 'cmake_prefix_path')
+[17.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/cmake_prefix_path.ps1'
+[17.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/cmake_prefix_path.dsv'
+[17.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/cmake_prefix_path.sh'
+[17.618s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib'
+[17.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interfaces', 'ld_library_path_lib')
+[17.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/ld_library_path_lib.ps1'
+[17.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/ld_library_path_lib.dsv'
+[17.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/ld_library_path_lib.sh'
+[17.618s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/bin'
+[17.618s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/pkgconfig/car_interfaces.pc'
+[17.618s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages'
+[17.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_interfaces', 'pythonpath')
+[17.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/pythonpath.ps1'
+[17.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/pythonpath.dsv'
+[17.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/hook/pythonpath.sh'
+[17.619s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/bin'
+[17.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.ps1'
+[17.620s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.dsv'
+[17.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.sh'
+[17.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.bash'
+[17.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/car_interfaces/package.zsh'
+[17.624s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/share/colcon-core/packages/car_interfaces)
+[17.624s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2' with build type 'ament_cmake'
+[17.624s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2'
+[17.624s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.624s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2': AMENT_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/cyun/.local/bin/cmake /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2 -DCMAKE_INSTALL_PREFIX=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2
+[18.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2' returned '0': AMENT_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/cyun/.local/bin/cmake /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/src/data_bridge_ros2 -DCMAKE_INSTALL_PREFIX=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2
+[18.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2': AMENT_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/cyun/.local/bin/cmake --build /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2 -- -j32 -l32
+[22.791s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2' returned '0': AMENT_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/cyun/.local/bin/cmake --build /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2 -- -j32 -l32
+[22.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2': AMENT_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/cyun/.local/bin/cmake --install /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2
+[22.839s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_bridge_ros2)
+[22.839s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2' for CMake module files
+[22.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2' returned '0': AMENT_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces:/opt/ros/galactic:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/lib:/opt/deepways_master/lib:/home/cyun/Downloads/apps/TensorRT-8.5.3.1/lib:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/local/cuda-11.8/lib64:/home/cyun/.mujoco/mujoco210/bin:/usr/lib/nvidia:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/car_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /home/cyun/.local/bin/cmake --install /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/build/data_bridge_ros2
+[22.840s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2' for CMake config files
+[22.840s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_bridge_ros2', 'cmake_prefix_path')
+[22.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/hook/cmake_prefix_path.ps1'
+[22.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/hook/cmake_prefix_path.dsv'
+[22.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/hook/cmake_prefix_path.sh'
+[22.840s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib'
+[22.840s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/bin'
+[22.841s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/pkgconfig/data_bridge_ros2.pc'
+[22.841s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/python3.8/site-packages'
+[22.841s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/bin'
+[22.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.ps1'
+[22.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.dsv'
+[22.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.sh'
+[22.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.bash'
+[22.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.zsh'
+[22.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/colcon-core/packages/data_bridge_ros2)
+[22.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(data_bridge_ros2)
+[22.842s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2' for CMake module files
+[22.842s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2' for CMake config files
+[22.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('data_bridge_ros2', 'cmake_prefix_path')
+[22.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/hook/cmake_prefix_path.ps1'
+[22.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/hook/cmake_prefix_path.dsv'
+[22.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/hook/cmake_prefix_path.sh'
+[22.843s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib'
+[22.843s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/bin'
+[22.843s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/pkgconfig/data_bridge_ros2.pc'
+[22.843s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/lib/python3.8/site-packages'
+[22.843s] Level 1:colcon.colcon_core.environment:checking '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/bin'
+[22.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.ps1'
+[22.850s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.dsv'
+[22.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.sh'
+[22.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.bash'
+[22.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/data_bridge_ros2/package.zsh'
+[22.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/data_bridge_ros2/share/colcon-core/packages/data_bridge_ros2)
+[22.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.851s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.851s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.856s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.857s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.857s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.872s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.872s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/local_setup.ps1'
+[22.873s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/_local_setup_util_ps1.py'
+[22.875s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/setup.ps1'
+[22.876s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/local_setup.sh'
+[22.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/_local_setup_util_sh.py'
+[22.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/setup.sh'
+[22.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/local_setup.bash'
+[22.878s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/setup.bash'
+[22.879s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/local_setup.zsh'
+[22.879s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros2/install/setup.zsh'

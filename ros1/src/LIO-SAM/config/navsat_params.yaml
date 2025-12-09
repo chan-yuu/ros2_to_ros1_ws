@@ -1,0 +1,36 @@
+# 频率：每秒运行 50 次 (Hz)。
+frequency: 50
+
+# 是否等待手动设置原点？
+# false = 只要收到第一个 GPS 信号，就以那个点作为地图的原点 (0,0)。
+# true = 等待程序调用服务来指定哪里是原点。通常设为 false 自动开始。
+wait_for_datum: false
+
+# 延时时间：如果你的 TF 变换树发布比较慢，可以给一点延时等待变换到位，通常 0.0 即可。
+delay: 0.0
+
+# --- 关键参数：磁偏角 ---
+# 磁北 (指南针指的北) 和 真北 (地图上的北) 之间的夹角。
+# 如果你的 IMU 是指磁北的，必须填这个值，否则车走直线，在 RViz 里会显示是歪着走的。
+# 可以在网上查你所在城市的磁偏角 (单位：弧度)。新加坡大约是 0。
+magnetic_declination_radians: 0
+
+# IMU 安装时的偏置。
+# 如果你的 IMU 安装时，X 轴没有朝向车头正前方，需要在这里补偿 (单位：弧度)。
+# 如果 IMU X轴朝东 (0度)，而地图要求 X轴朝东，这里填 0。
+yaw_offset: 0
+
+# --- 高度处理 ---
+# true = 忽略 GPS 的海拔高度，强制认为 Z=0。
+# 地面机器人通常设为 true，防止因为 GPS 高度乱跳导致飞机认为自己在地下或天上。
+zero_altitude: true
+
+# --- TF 发布设置 ---
+# 是否发布 map -> utm 的坐标变换？
+# 如果你有其他节点也在发布 map 相关的 TF，这里要设为 false，防止冲突。
+broadcast_utm_transform: false
+broadcast_utm_transform_as_parent_frame: false
+
+# 是否发布经过过滤的 GPS 信号？
+# 如果 true，会发布一个叫 /gps/filtered 的话题，通常用于调试。
+publish_filtered_gps: false

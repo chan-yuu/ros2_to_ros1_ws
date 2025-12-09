@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/setup.sh

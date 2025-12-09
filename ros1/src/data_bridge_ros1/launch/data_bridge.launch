@@ -11,10 +11,10 @@
         <param name="semaphore_key" value="i" />
     </node>
     
-    <node name="tf_reader" pkg="data_bridge_ros1" type="tf_reader_node" output="screen">
+    <!-- <node name="tf_reader" pkg="data_bridge_ros1" type="tf_reader_node" output="screen">
         <param name="tf_topic" value="/tf" />
         <param name="tf_static_topic" value="/tf_static" />
-    </node>
+    </node> -->
     
     
     <node name="gps_reader" pkg="data_bridge_ros1" type="gps_reader_node" output="screen">

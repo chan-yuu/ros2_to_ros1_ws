@@ -1,0 +1,4 @@
+source;share/data_bridge_ros2/local_setup.bash
+source;share/data_bridge_ros2/local_setup.dsv
+source;share/data_bridge_ros2/local_setup.sh
+source;share/data_bridge_ros2/local_setup.zsh

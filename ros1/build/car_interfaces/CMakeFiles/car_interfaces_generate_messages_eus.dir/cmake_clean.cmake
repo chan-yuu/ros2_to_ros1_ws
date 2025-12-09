@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/manifest.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/CanStateInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/CarDecisionInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/CarOriInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/Decision.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/FaultDiagnosisInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/GpsImuAddInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/GpsImuInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/GpsImuRequisiteInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/Object.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/PalletInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/PathGlobal.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/PathSpeedCtrlInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/Pathplan.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/Pointplan.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/RoadList.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/RoadToControl.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/TargetDetectionInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/Yolov5DetectionInterface.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/pose.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/msg/single_task.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/BalesNumInCamera.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/CameraTask.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/ControlTask.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/EmergencyStopTask.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/FusionDetTask.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/GetInitPose.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/GetTargetPose.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/PlanTask.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/PositionTask.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/StopTask.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/TaskSts.l"
+  "/home/cyun/ros2_to_ros1_ws/v1.0/ros2_to_ros1_ws/ros1/devel/share/roseus/ros/car_interfaces/srv/cloud_order.l"
+  "CMakeFiles/car_interfaces_generate_messages_eus"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/car_interfaces_generate_messages_eus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
